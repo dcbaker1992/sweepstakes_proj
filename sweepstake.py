@@ -2,7 +2,7 @@ from contestant import Contestant
 import random
 
 
-class Sweepstakes:
+class Sweepstake:
     def __init__(self, name):
         self.name = name
         self.contestants = {}

@@ -7,4 +7,4 @@ class Contestant:
 
     def notification(self, message):
         name = self.f_name + " " + self.l_name
-        pass
+        print(message)

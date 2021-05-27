@@ -1,4 +1,4 @@
-from sweepstake import Sweepstakes
+from sweepstake import Sweepstake
 
 
 class MarketingFirm:
@@ -6,5 +6,5 @@ class MarketingFirm:
         self.manager = manager
 
     def create_sweepstakes(self, name):
-        created_sweepstakes = Sweepstakes(name)
+        created_sweepstakes = Sweepstake(name)
         self.manager.insert_sweepstakes(created_sweepstakes)
