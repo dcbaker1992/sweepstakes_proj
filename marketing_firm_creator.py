@@ -6,7 +6,7 @@ def manager_type():
     print("Which type of sweepstakes manager do you want to use?\n"
           "1: Queue\n2: Stack")
     try:
-        choice = int(input(":"))
+        choice = int(input(" "))
         assert choice == 1 or choice == 2
         if choice == 1:
             return SweepstakesQueueManager()
